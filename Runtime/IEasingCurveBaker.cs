@@ -1,4 +1,5 @@
-﻿using Unity.Collections;
+﻿#nullable enable
+using Unity.Collections;
 using UnityEngine;
 
 namespace AceLand.Curve
@@ -31,6 +32,30 @@ namespace AceLand.Curve
             int lutSize,
             Allocator allocator,
             CurveLoopMode loopMode = CurveLoopMode.Clamp
+        );
+        
+        Texture2D BuildLutTexture(
+            AnimationCurve curve,
+            int lutSize,
+            bool linear = true
+        );
+
+        Texture2D BuildLutTexture(
+            AnimationCurve? curveX, AnimationCurve? curveY, AnimationCurve? curveZ, AnimationCurve? curveW,
+            int lutSize,
+            bool linear = true
+        );
+
+        NativeArray<float> BuildNativeLut(
+            AnimationCurve curve,
+            int lutSize,
+            Allocator allocator
+        );
+
+        NativeArray<byte> BuildNativeByteLut(
+            AnimationCurve curve,
+            int lutSize,
+            Allocator allocator
         );
     }
 }
