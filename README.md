@@ -1,7 +1,11 @@
 ## AceLand Unity Packages
 
-![Full Open Source](https://img.shields.io/badge/Full%20Open%20Source-2A8B22) ![ECS Ready](https://img.shields.io/badge/ECS%20Ready-4A5BC2) ![CoreCLR Ready](https://img.shields.io/badge/CoreCLR%20Ready-4A5BC2)   
-![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&amp;logoColor=white) ![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white)
+![Full Open Source](https://img.shields.io/badge/Full%20Open%20Source-2A8B22)
+![ECS Ready](https://img.shields.io/badge/ECS%20Ready-4A5BC2) 
+![CoreCLR Ready](https://img.shields.io/badge/CoreCLR%20Ready-4A5BC2)   
+![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&amp;logoColor=white) 
+![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp;logoColor=white)
+[![Docs](https://img.shields.io/badge/Docs-GitBook-3884FF?logo=gitbook&logoColor=white)](https://docs.parsue.io/aceland-unity-packages/core-packages/curve)
 
 AceLand Unity Packages is a whole set library of utilities, extensions, editor enhancements, frameworks,
 Unity and c# implements designed for Unity Engine.
