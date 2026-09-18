@@ -1,8 +1,9 @@
 ﻿using AceLand.Curve.Core;
+using Unity.Scripting.LifecycleManagement;
 
 namespace AceLand.Curve
 {
-    public static class AceCurve
+    public static partial class AceCurve
     {
         public static IEasingCurveBaker Baker
         {
@@ -13,6 +14,7 @@ namespace AceLand.Curve
             }
         }
 
+        [AutoStaticsCleanup]
         private static IEasingCurveBaker _baker;
     }
 }

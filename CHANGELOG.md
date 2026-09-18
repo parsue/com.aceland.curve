@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0] - 2026-09-18
+### Modified
+- Ready for CoreCLR, auto clearup static values
+
 ## [1.1.0] - 2025-12-30
 ### Added
 - [Baker] support AnimationCurve now. loop mode is excluded, set in AnimationCurve.
